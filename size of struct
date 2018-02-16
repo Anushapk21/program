@@ -1,0 +1,10 @@
+#include<stdio.h>
+union name{
+    int empno;
+    char name[6];
+    float sal;
+int a;
+}e;
+int main() {
+   printf("%d",sizeof(e));
+}
